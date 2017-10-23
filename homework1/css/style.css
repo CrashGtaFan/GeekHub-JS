@@ -1,0 +1,108 @@
+#click_me {
+  font-size: 20px;
+  color: white;
+  background: #0058e8;
+  border-radius: 30px;
+}
+.loren_text{
+  width: 250px;
+  height: 200px;
+  background-color: rgba(232, 207, 8, 0.54);
+  text-align: justify;
+}
+.my_list{
+  width: 250px;
+  height: 200px;
+  background-color: rgba(136, 234, 22, 0.84);
+}
+.letter{
+  font-size: 35px;
+}
+.list_item{
+  text-align: right;
+}
+.list_item_odd{
+  color: #9C27B0;
+  text-decoration: underline;
+}
+.toggle-picture{
+  height: 100px;
+}
+#btn_toggle{
+  height: 100px;
+  width: 100px;
+}
+.btn_color{
+  background-color: yellow: 
+}
+.highlight {
+  background-image: url(http://images.clipartpanda.com/smile-clipart-aTqBqMBTM.jpeg);
+  background-size: 50px;
+}
+.my-flex-block{
+  display: inline-flex;
+  background-color: blue;
+}
+.inst_picture_1{
+  width: 150px;
+}
+.inst_picture_2{
+  width: 220px;
+  height: 50px;
+}
+.flex-cont{
+  display: flex;
+  width: 550px;
+  height: 200px;
+  background-color: aqua;
+  justify-content: space-around;
+}
+.flex-cont-2{
+  display: flex;
+  width: 550px;
+  height: 200px;
+  background-color: tomato;
+  justify-content: space-around;
+}
+.flex_1{
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-part2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+@media (min-width: 768px){
+  .flex-row-1{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.flex-row-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+}
+.flex-row-2 > div {
+  border: 1px solid black;
+  min-height: 50px;
+}
+.flex-row-2 .left, .flex-row-2 .right {
+  width: 300px;
+  background-color: green;
+}
+.flex-row-2 .content {
+  flex-grow: 1;
+  margin: 0 10px;
+  background-color: blue;
+}
+.flex-row-2 .footer {
+  width: 100%;
+  margin-top: 10px;
+  background-color: red;
+}
